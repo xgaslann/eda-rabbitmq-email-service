@@ -3,3 +3,8 @@ spring:
     name: email-service
 server:
   port: 8082
+
+rabbitmq:
+  queue:
+    email:
+      name: email-queue
